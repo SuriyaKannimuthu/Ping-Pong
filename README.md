@@ -1,2 +1,2 @@
 # Ping-Pong
-Ping-Pong game made with Unity3D.
+Ping-Pong game with Unity3D.
