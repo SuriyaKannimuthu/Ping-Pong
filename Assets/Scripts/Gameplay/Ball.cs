@@ -32,10 +32,10 @@ public class Ball : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            ball_rigidbody.AddForce(ball_rigidbody.velocity * 10 * Time.deltaTime, ForceMode.Impulse); //For Initial ball moving force.
+            ball_rigidbody.AddForce(ball_rigidbody.velocity * 10 * Time.deltaTime, ForceMode.Impulse); 
         }
         else {
-            ball_rigidbody.AddForce(ball_rigidbody.velocity * 5 * Time.deltaTime , ForceMode.Impulse); //For Initial ball moving force.
+            ball_rigidbody.AddForce(ball_rigidbody.velocity * 5 * Time.deltaTime , ForceMode.Impulse);
         }
     }
 
